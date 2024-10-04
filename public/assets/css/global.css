@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+  
+body, html {
+    height: 100%;
+}
+
+.macondo-regular {
+    font-family: "Macondo", cursive;
+    font-weight: 500;
+    font-style: normal;
+}
+
+:root {
+    --bs-primary: #909F43; 
+    --bs-secondary: #536140; 
+}
+
+body {
+    background-color: #909F43 !important;
+    color: #909F43 !important;
+    font-family: Macondo;
+    overflow-x: hidden;
+}
+
+footer {
+    background-color: #536140;
+    color: #ffffff;
+    padding: 20px 0;
+}
+
+.btn-primary {
+    background-color: #909F43 !important;
+    border-color: #536140 !important;
+}
+
+.btn-secondary {
+    background-color: #536140 !important;
+    border-color: #909F43 !important;
+}
+
+.bg-primary {
+    background-color: #909F43 !important;
+}
+
+.bg-secondary {
+    background-color: #536140 !important;
+}
+
+.navbar {
+    background-color: #536140 !important;
+    min-height: 80px;
+    overflow: hidden;
+}
+
+.navbar a {
+    color: #ffffff;
+    font-size: 1.5rem;
+}
+.navbar a:hover {
+    color: #909F43;
+}
+
+.custom-class {
+    font-size: 1.5rem;
+    color: #FFFFFF;
+}
+
+.logo img {
+    position: absolute;
+    top: 3px;
+    left: 5px;
+    width: 80px;
+    height: 80px;
+}
+
+@media screen and (max-width: 991px) {
+
+    .navbar-nav {
+        margin-top: 35px;
+    }
+}
+
+.card {
+    background-color: #536140;
+    color: #909F43;
+}
+
+.card a {
+    color: #909F43;
+    font-size: 1.5rem;
+}
+
+.card-body h2 {
+    font-size: 2rem;
+}
+
+.w100 {
+    width: 100px;
+}
+
+.h100 {
+    height: 100px;
+}
+
+.h50 {
+    height: 50px;
+}
+
+.w50 {
+    width: 50px;
+}
+
+.h200 {
+    height: 200px;
+}
+
+.mt-7 {
+    margin-top: 7rem;
+}
+
+.mt-12 {
+    margin-top: 12rem;
+}

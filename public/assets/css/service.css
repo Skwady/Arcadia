@@ -1,0 +1,131 @@
+strong {
+    color: #ffffff;
+}
+
+.desc {
+    margin-top: 5px;
+    margin-bottom: 150px;
+}
+.desc2 {
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+.bg-white {
+    background-color: #ffffff;
+    clip-path: polygon(0 20%, 100% 0, 100% 80%, 0% 100%);
+    padding: 20vh 0;
+}
+
+@media (min-width: 769px) {
+    .desc {
+        margin-top: 10px; 
+    }
+}
+
+.cards, .cards2 {
+    width: 90%;
+    height: 100%;
+    object-fit: cover; /* Pour s'assurer que l'image rentre bien dans la forme */
+    clip-path: polygon(51% 0, 100% 2%, 98% 33%, 100% 70%, 99% 98%, 48% 96%, 0 100%, 2% 82%, 0 0, 22% 2%);
+    /* Utiliser transform pour ajuster l'image selon le besoin */
+    transform: translateY(0); /* Ajustez cette valeur pour aligner les images */
+}
+
+.cards {
+    margin-top: 150px; /* Ajuster la marge pour réduire l'espace, surtout sur mobile */
+}
+
+.cards2 {
+    margin: 5px 0; /* Réduire la marge pour les images impaires */
+}
+
+.title {
+    font-size: 2em; /* Réduisez un peu la taille sur mobile */
+    color: #536140;
+    font-weight: bold;
+}
+
+.title2 {
+    font-size: 2em; /* Réduisez un peu la taille sur mobile */
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.txt-white {
+    color: #ffffff;
+}
+
+@media (min-width: 769px) {
+    .title, .title2 {
+        font-size: 2.5em; /* Taille plus grande pour les écrans moyens et plus grands */
+    }
+
+    .cards {
+        margin-top: 50px;
+    }
+}
+
+.mt-200 {
+    margin-top: 200px;
+}
+
+.triple {
+    width: 30%;
+}
+
+.triples {
+    width: 100%;
+    height: 40%;
+}
+
+.contents {
+    padding: 20px;
+}
+
+.h-title {
+    font-size: 2.5em;
+}
+
+/* Corriger les marges et paddings sur les petits écrans */
+@media (max-width: 768px) {
+    /* Réduire les marges sur les petits écrans */
+    .mx-5, .mx-auto {
+        margin-left: 10px !important;  /* Ajuster les marges pour éviter le débordement */
+        margin-right: 10px !important;  /* Ajuster les marges pour éviter le débordement */
+    }
+
+    /* Assurer que les colonnes prennent toute la largeur sur les petits écrans */
+    .container, .container-fluid {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .col-md-6, .col-md-3 {
+        width: 100% !important; /* Les colonnes prennent toute la largeur sur les petits écrans */
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    /* Ajuster la largeur des images pour ne pas déborder */
+    .cards, .cards2 {
+        width: 100%;
+        margin-top: 150px; /* Réduire la marge pour éviter les débordements */
+    }
+
+    /* Ajuster le conteneur des services */
+    .row {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .h-title {
+        font-size: 1.8em; /* Réduire la taille de la police pour les titres sur les petits écrans */
+    }
+
+    /* Préserver la forme avec clip-path sans débordement */
+    .bg-white {
+        margin-top: 10vh; /* Ajuster la marge pour éviter les débordements */
+        padding: 10vh 5vw; /* Garder un padding plus petit pour éviter les débordements horizontaux tout en gardant la forme */
+    }
+}

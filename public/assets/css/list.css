@@ -1,0 +1,13 @@
+h2 {
+    font-size: 4em;
+}
+
+strong {
+    color: #ffffff;
+}
+
+img {
+    height: 250px; 
+    object-fit: cover; 
+    width: 100%;  
+}

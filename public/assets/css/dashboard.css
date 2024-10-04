@@ -1,0 +1,58 @@
+.sidebar {
+    height: auto; 
+    background-color: #536140 !important;
+    padding-top: 20px;
+    border: 3px solid #909F43;
+}
+.sidebar a {
+    text-decoration: none;
+    padding: 10px 20px;
+    display: block;
+    color: #909F43;
+    font-size: 1.3rem;
+}
+.sidebar a:hover {
+    background-color: #909F43;
+    color: #ffffff;
+}
+
+.container {
+    background-color: #536140; 
+    padding: 20px;
+    border-radius: 10px; 
+}
+
+.content {
+    padding: 20px;
+}
+
+h2 {
+    color: #000000; 
+    font-size: 2.5rem;
+}
+
+h1 {
+    color: #000000; 
+}
+
+.table {
+    background-color: #536140; 
+    border: 1px solid #909F43; 
+}
+
+.table thead th {
+    background-color: #909F43; 
+    color: #000000; 
+}
+
+.table tbody td {
+    background-color: #536140; 
+    color: #ffffff; 
+    font-size: 1.3rem;
+}
+
+td .commentaire {
+    word-wrap: break-word; 
+    word-break: break-word; 
+    white-space: normal; 
+}
