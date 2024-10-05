@@ -64,37 +64,55 @@ $title = 'Accueil';
 <div class="container mt-7 text-center">
     <h2 class="title"><strong>Moments magiques à Arcadia : Animations et spectacles pour toute la famille !</strong></h2>
 </div>
+
 <div class="row mx-auto justify-content-center w-100 mt-4">
     <div class="col-sm-12 col-md-6 col-lg-4 d-flex flex-column align-items-center">
-        <a href="/service/#serv"><img class="bubbles img-fluid mx-5" src="/assets/img/soigneur_en_famille.jpg" alt="Premiers pas de soigneur"></a>
+        <a href="/service/#serv">
+            <div class="bubbles">
+                <img class="img-fluid mx-5" src="/assets/img/soigneur_en_famille.jpg" alt="Premiers pas de soigneur">
+            </div>
+        </a>
         <div class="container text-center mt-3 mb-3">
             <h3><strong>Premiers pas de soigneur</strong></h3>
             <h4>Réalisez votre rêve : devenez soigneur d'un jour et apprenez à prendre soin des animaux tout en vivant une aventure unique !</h4>
         </div>
     </div>
     <div class="col-sm-12 col-md-6 col-lg-4 d-flex flex-column align-items-center">
-        <a href="/service/#serv"><img class="bubbles img-fluid mx-5" src="/assets/img/spectacle_aigles_zoo.webp" alt="Spectacle"></a>
+        <a href="/service/#serv">
+            <div class="bubbles">
+                <img class="img-fluid mx-5" src="/assets/img/spectacle_aigles_zoo.webp" alt="Spectacle">
+            </div>
+        
+        </a>
         <div class="container text-center mt-3 mb-3">
             <h3><strong>Les maîtres des airs</strong></h3>
             <h4>Laissez-vous émerveiller par la noblesse des aigles : un spectacle captivant qui vous plongera au cœur de la nature sauvage !</h4>
         </div>
     </div>
     <div class="col-sm-12 col-md-6 col-lg-4 d-flex flex-column align-items-center">
-        <a href="/service/#serv"><img class="bubbles img-fluid mx-5" src="/assets/img/spectacle_otarie.jpg" alt="lions de mer"></a>
+        <a href="/service/#serv">
+            <div class="bubbles">
+                <img class="img-fluid mx-5" src="/assets/img/spectacle_otarie.jpg" alt="lions de mer">
+            </div>
+        </a>
         <div class="container text-center mt-3 mb-3">
             <h3><strong>L'Odyssée des lions de mer</strong></h3>
             <h4>Assistez à une danse majestueuse sous l'eau, nos lions de mer vous invitent à une aventure aquatique <br> époustouflante !</h4>
         </div>
     </div>
     <div class="col-sm-12 col-md-6 col-lg-4 d-flex flex-column align-items-center">
-        <img class="bubble img-fluid mx-5" src="/assets/img/voliere_3.webp" alt="la volière">
+        <div class="bubble">
+            <img class="img-fluid mx-5" src="/assets/img/voliere_3.webp" alt="la volière">
+        </div>
         <div class="container text-center mt-3 mb-3">
             <h3><strong>La volière d'Arcadia</strong></h3>
             <h4>Entrez dans un monde de couleurs et de mélodies : découvrez notre volière, où les oiseaux dansent et chantent en liberté !</h4>
         </div>
     </div>
     <div class="col-sm-12 col-md-6 col-lg-4 d-flex flex-column align-items-center">
-        <img class="bubble img-fluid mx-5" src="/assets/img/aquarium.webp" alt="aquarium">
+        <div class="bubble">
+            <img class="img-fluid mx-5" src="/assets/img/aquarium.webp" alt="aquarium">
+        </div>
         <div class="container text-center mt-3 mb-3">
             <h3><strong>L'aquarium d'Arcadia</strong></h3>
             <h4>Plongez au cœur des océans et laissez vous émerveiller par les secrets de la vie sous-marine dans l'aquarium d'Arcadia !</h4>
