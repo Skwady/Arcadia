@@ -63,18 +63,6 @@ class UsersModel extends Model
     }
 
     /**
-     * Retrieves all roles from the database.
-     *
-     * Uses the default fetch mode (object) set in the database connection.
-     *
-     * @return array|false Returns an array of role objects, or false on failure.
-     */
-    public function getAllRoles()
-    {
-        return $this->req('SELECT * FROM Role')->fetchAll();
-    }
-
-    /**
      * Retrieves all users along with their roles.
      *
      * Uses the default fetch mode (object) set in the database connection.

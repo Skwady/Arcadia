@@ -16,16 +16,6 @@
             <label for="email" class="form-label">Email</label>
             <input type="email" class="form-control" id="email" name="email" value="<?= $user->email ?>" required>
         </div>
-        <div class="mb-3">
-            <label for="role" class="form-label">Rôle</label>
-            <select class="form-control" id="roles">
-                <?php foreach ($role as $roles): ?>
-                <option value="<?= $roles->id ?>" <?= ($roles->id == $user->id_role) ? 'selected' : '' ?>>
-                    <?= $roles->role ?>
-                </option>
-                <?php endforeach; ?>
-                </select>
-        </div>
         <input type="hidden" name="csrf_token" value="<?php echo $_SESSION['csrf_token']; ?>">
         <button type="submit" class="btn btn-primary">Mettre à jour</button>
         <a href="/usersDashboard/listUsers" class="btn btn-secondary">Annuler</a>

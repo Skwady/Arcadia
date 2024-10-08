@@ -165,7 +165,7 @@ class UsersDashboardController extends DashboardController
 
         // Retrieve user data by ID
         $user = $userModel->select($id);
-        $roles = $userModel->getAllRoles();
+        $roles = $userModel->selectAll();
 
         if (!$user) {
             http_response_code(404);

@@ -77,7 +77,7 @@ $title = 'Dashboard';
                 // Include the specific view based on $section
                 require_once __DIR__ . "/$section.php";
             } else {
-                echo "<h2 class='text-center'>Bienvenu sur le dashboard</h2>";
+                echo "<h2 class='text-center'>Bienvenue sur le dashboard</h2>";
             }
             ?>
         </section>

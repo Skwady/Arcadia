@@ -27,7 +27,7 @@ class MongoBase
     {
         try {
             // Connect to MongoDB Atlas via the URI
-            return new Client($_ENV["MONGODB_URI"]);
+            return new Client($_ENV['MONGODB_URI']);
         } catch (\Exception $e) {
             die("Erreur de connexion à MongoDB : " . $e->getMessage());
         }

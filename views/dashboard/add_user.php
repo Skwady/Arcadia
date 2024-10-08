@@ -25,9 +25,8 @@
         <div class="mb-3">
             <label for="role" class="form-label">Rôle</label>
             <select class="form-control" id="role" name="role" required>
-                <?php foreach ($roles as $role): ?>
-                    <option value="<?= $role->role ?>"><?= $role->role ?></option>
-                <?php endforeach; ?>
+                    <option value="Employe">Employé</option>
+                    <option value="Veterinaire">Vétérinaire</option>
             </select>
         </div>
         <input type="hidden" name="csrf_token" value="<?php echo $_SESSION['csrf_token']; ?>">

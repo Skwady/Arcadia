@@ -1,17 +1,3 @@
-const form = document.getElementById('avisForm');
-const toggleButton = document.getElementById('toggleFormButton');
-
-toggleButton.addEventListener('click', function() {
-    if (form.style.display === 'none') {
-        form.style.display = 'block'; // Montre le formulaire
-        toggleButton.textContent = 'Fermer le formulaire'; // Change le texte du bouton
-    } else {
-        form.style.display = 'none'; // Cache le formulaire
-        toggleButton.textContent = 'Ajouter un avis'; // Change le texte du bouton
-    }
-});
-
-
 const commentaireInput = document.getElementById('commentaire');
 const charCount = document.getElementById('charCount');
 
@@ -21,10 +7,10 @@ commentaireInput.addEventListener('input', function() {
 });
 
 function toggleText(button) {
-    const target = button.getAttribute("data-target");
-    const dots = document.getElementById("dots" + target);
-    const moreText = document.getElementById("more" + target);
-    const btnText = button;
+    let target = button.getAttribute("data-target");
+    let dots = document.getElementById("dots" + target);
+    let moreText = document.getElementById("more" + target);
+    let btnText = button;
 
     if (dots.style.display === "none") {
         dots.style.display = "inline";

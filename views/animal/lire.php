@@ -17,6 +17,7 @@ $title = 'Animaux';
                     <h4 class="card-text p-2"><strong>Race : </strong><?= $id->race ?></h4>
                     <h4 class="card-text p-2"><?= $id->description ?></h4>
                     <h4 class="card-text p-2"><strong>Le Saviez-vous : </strong><?= $id->dyk ?></h4>
+                    <h4 class="card-text p-2"><strong>Avis Vétérinaire : </strong><?= $id->commentaire ?></h4>
                 </div>
             </div>
         </div>

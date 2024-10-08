@@ -40,18 +40,12 @@ class RapportDashboardController extends DashboardController
      */
     public function addRapport()
     {
+        $currentUserId = $_SESSION['id'];
+        
         $animalModel = new AnimalModel();
 
         // Retrieve available animals for the dropdown list in the form
         $animals = $animalModel->selectAll();
-
-        // Ensure that the user is logged in and retrieve their ID
-        if (isset($_SESSION['id'])) {
-            $currentUserId = $_SESSION['id'];
-        } else {
-            http_response_code(404);
-            exit();
-        }
 
         if ($_POST) {
             $rapportModel = new RapportModel();
@@ -80,6 +74,7 @@ class RapportDashboardController extends DashboardController
         }
 
         if (isset($_SESSION['id'])) {
+            
             // Render the view to add a report
             $this->render('dashboard/index', [
                 'section' => 'add_rapport',

@@ -56,7 +56,7 @@
         <?= $contenu ?>
     </main>
 
-    <footer class="mt-7">
+    <footer class="mt-5">
         <h3 class="text-center">&copy Copyright</h3>
     </footer>
 

@@ -61,7 +61,8 @@ strong {
 
 .bubbles:hover {
     transform: rotateY(360deg); /* Rotation de 180 degrés sur l'axe Y */
-}
+    transition: transform 0.8s; /* Durée de la transition */
+} 
 
 #more { 
     display: none; 

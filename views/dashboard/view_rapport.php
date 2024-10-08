@@ -45,14 +45,6 @@
             <th>Utilisateur</th>
             <td><?= $rapport->userName ?></td>
         </tr>
-        <tr>
-            <th>Déscription</th>
-            <td><?= $rapport->description ?></td>
-        </tr>
-        <tr>
-            <th>Le Saviez-vous</th>
-            <td><?= $rapport->dyk ?></td>
-        </tr>
     </table>
     <a href="/rapportDashboard/listRapports" class="btn btn-primary">Retour à la liste des rapports</a>
 </div>

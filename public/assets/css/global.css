@@ -122,6 +122,10 @@ footer {
     margin-top: 7rem;
 }
 
+main{
+    min-height: 100vh;
+}
+
 .mt-12 {
     margin-top: 12rem;
 }
