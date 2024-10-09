@@ -59,7 +59,7 @@ class RapportDashboardController extends DashboardController
                 'recommended_weight' => $_POST['recommended_weight'],
                 'food_given' => $_POST['food_given'],
                 'quantity_donated' => $_POST['quantity_donated'],
-                'commentaire' => $_POST['commentaire'],
+                'commentaire' => $_POST['commentaire'] ?? null,
                 'id_animal' => $_POST['id_animal'],
                 'id_users' => $currentUserId  // Use the ID of the logged-in user
             ];
@@ -122,7 +122,7 @@ class RapportDashboardController extends DashboardController
                 'recommended_weight' => $_POST['recommended_weight'],
                 'food_given' => $_POST['food_given'],
                 'quantity_donated' => $_POST['quantity_donated'],
-                'commentaire' => $_POST['commentaire'],
+                'commentaire' => $_POST['commentaire'] ?? null,
                 'id_animal' => $_POST['id_animal'],
                 'id_users' => $currentUserId  // Use the ID of the logged-in user
             ];

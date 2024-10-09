@@ -15,7 +15,7 @@
                     Date <i class="fas fa-sort" id="sort-icon-1"></i>
                 </th>
                 <th>État de santé</th>
-                <th>Commentaire</th>
+                <th>Commentaire sur l'habitat</th>
                 <th onclick="sortTable(4, 'string')">
                     Animal <i class="fas fa-sort" id="sort-icon-4"></i>
                 </th>

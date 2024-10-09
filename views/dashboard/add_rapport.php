@@ -47,7 +47,7 @@
         <?php endif; ?>
         
         <div class="mb-3">
-            <label for="commentaire" class="form-label">Commentaire</label>
+            <label for="commentaire" class="form-label">Commentaire sur l'habitat</label>
             <input type="text" class="form-control" id="commentaire" name="commentaire">
         </div>
 

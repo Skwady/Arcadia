@@ -55,7 +55,7 @@
             </div>
             
         <div class="mb-3">
-            <label for="commentaire" class="form-label">Commentaire</label>
+            <label for="commentaire" class="form-label">Commentaire sur l'habitat</label>
             <textarea type="text" class="form-control" id="commentaire" name="commentaire" value="<?= $rapport->commentaire ?>"><?= $rapport->commentaire ?></textarea>
         </div>
         <input type="hidden" name="csrf_token" value="<?php echo $_SESSION['csrf_token']; ?>">
