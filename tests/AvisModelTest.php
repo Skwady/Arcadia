@@ -35,5 +35,4 @@ class AvisModelTest extends TestCase
 
         $this->assertNotEmpty($result); // Assurez-vous que les avis sont retournés correctement
     }
-
 }

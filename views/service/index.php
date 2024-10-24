@@ -16,16 +16,16 @@ $title = 'Services';
   <?php $counter = 1; ?>
   
   <?php foreach ($services as $service): ?>
-    <div class="row align-items-center <?php echo $counter % 2 == 1 ? 'bg-white' : ''; ?>">
+    <div class="row align-items-center <?= $counter % 2 == 1 ? 'bg-white' : ''; ?>">
       <!-- Section Image -->
-      <div class="col-12 col-md-6 <?php echo $counter % 2 == 0 ? 'order-md-2' : ''; ?> text-center mb-4 mb-md-0">
-        <img class="img-fluid cards w-75 <?php echo $counter % 2 == 0 ? 'cards2' : ''; ?>" src="<?= $service->slug ?>" alt="">
+      <div class="col-12 col-md-6 <?= $counter % 2 == 0 ? 'order-md-2' : ''; ?> text-center mb-4 mb-md-0">
+        <img class="img-fluid cards w-75 <?= $counter % 2 == 0 ? 'cards2' : ''; ?>" src="<?= $service->slug ?>" alt="">
       </div>
       
       <!-- Section Description -->
-      <div class="col-12 col-md-6 text-center <?php echo $counter % 2 == 1 ? 'desc' : 'desc2' ?> ">
-        <h3 class="<?php echo $counter % 2 == 1 ? 'title' : 'title2'; ?>"><?= $service->name ?></h3>
-        <h4 class="<?php echo $counter % 2 == 1 ? 'mt-4 px-3' : 'txt-white mt-4 px-3'; ?>"><?= $service->description ?></h4>
+      <div class="col-12 col-md-6 text-center <?= $counter % 2 == 1 ? 'desc' : 'desc2' ?> ">
+        <h3 class="<?= $counter % 2 == 1 ? 'title' : 'title2'; ?>"><?= $service->name ?></h3>
+        <h4 class="<?= $counter % 2 == 1 ? 'mt-4 px-3' : 'txt-white mt-4 px-3'; ?>"><?= $service->description ?></h4>
       </div>
     </div>
     <?php $counter++; ?>
