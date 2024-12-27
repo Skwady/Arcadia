@@ -25,5 +25,4 @@ class LoginModelTest extends TestCase
         // Vérifier que l'email dans le résultat est celui attendu
         $this->assertSame($email, $result->email);
     }
-
 }

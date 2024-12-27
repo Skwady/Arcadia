@@ -140,7 +140,7 @@ class UsersDashboardController extends DashboardController
 
             // Email content
             $mail->isHTML(true);
-            $mail->Subject = 'Bienvenue sur ARCADIA';
+            $mail->Subject = 'Bienvenue sur ARCADIA' . $name;
             $mail->Body    = 'Votre identifiant de connexion est : ' . $email . '<br> Rapprochez-vous de l\'administrateur pour obtenir votre mot de passe !';
 
             $mail->send();
